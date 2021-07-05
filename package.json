@@ -6,11 +6,17 @@
   },
   "dependencies": {
     "@notionhq/client": "^0.2.0",
-    "dotenv": "^10.0.0"
+    "chalk": "^4.1.1",
+    "date-fns": "^2.22.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "ora": "^5.4.1"
   },
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
+    "@types/ejs": "^3.0.6",
     "@types/node": "^15.12.5",
+    "@types/ora": "^3.2.0",
     "prettier": "^2.3.2",
     "ts-node": "^10.0.0",
     "tslib": "^2.3.0",

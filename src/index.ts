@@ -1,49 +1,55 @@
-import { Client } from '@notionhq/client';
+import { Client } from '@notionhq/client/build/src';
+import { format } from 'date-fns';
 import dotenv from 'dotenv';
-import {
-  DatabasesQueryParameters,
-  DatabasesQueryResponse,
-} from '@notionhq/client/build/src/api-endpoints';
-import { Page } from '@notionhq/client/build/src/api-types';
+import { flashError } from './cli';
+import { withAsyncHandler } from './cli/utils/errorHandler';
+
+import { queryAll } from './client';
+import { MESSAGES } from './constants';
+import NotionParser from './parser';
+import { buildReadmeContent, writeReadmeContent } from './render';
+import { escapePipe, transform } from './utils';
 
 dotenv.config();
 
-const notion = new Client({ auth: process.env.NOTION_KEY });
-const TO_READ_DB_ID = process.env.TO_READ_DATABASE_ID;
-const READ_DB_ID = process.env.READ_DATABASE_ID;
-
-const queryAll = async ({
-  start_cursor,
-  ...rest
-}: DatabasesQueryParameters): Promise<Page[]> => {
-  const { has_more, results, next_cursor }: DatabasesQueryResponse =
-    await notion.databases.query({
-      ...rest,
-      start_cursor,
-    });
-
-  return has_more
-    ? [
-        ...results,
-        ...(await queryAll({
-          ...rest,
-          start_cursor: next_cursor ?? undefined,
-        })),
-      ]
-    : results;
-};
+export const notionKey = process.env.NOTION_KEY;
+export const databaseId = process.env.DATABASE_ID;
 
 (async () => {
-  if (!TO_READ_DB_ID) return;
+  if (!notionKey) flashError(MESSAGES.NOTION_KEY);
+  if (!databaseId) flashError(MESSAGES.DATABASE_ID);
 
-  const ToReadList = await queryAll({
-    database_id: TO_READ_DB_ID,
-    sorts: [
-      {
-        property: 'Created Time',
-        direction: 'descending',
-      },
-    ],
-  });
-  console.log(ToReadList.length);
+  const notion = new Client({ auth: notionKey });
+  const readingList = (
+    await withAsyncHandler(MESSAGES.QUERY_DB, queryAll, notion, {
+      database_id: databaseId,
+      sorts: [
+        {
+          property: 'Created Time',
+          direction: 'descending',
+        },
+      ],
+    })
+  )
+    .map(({ properties: props }) => props)
+    .map((props) => transform(props, NotionParser.property))
+    .map((props) => transform(props, escapePipe));
+
+  const readmeContent = await withAsyncHandler(
+    MESSAGES.BUILD_README,
+    buildReadmeContent,
+    {
+      count: Object.keys(readingList).length,
+      date: format(new Date(), 'yyyy--MM--dd'),
+      readingList,
+    },
+  );
+
+  if (readmeContent) {
+    await withAsyncHandler(
+      MESSAGES.WRITE_README,
+      writeReadmeContent,
+      readmeContent,
+    );
+  }
 })();
