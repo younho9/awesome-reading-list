@@ -20,7 +20,7 @@ export const databaseId = process.env.DATABASE_ID;
 
   const notion = new Client({ auth: notionKey });
   const readingList = (
-    await withAsyncHandler(MESSAGES.QUERY_DB, queryAll, notion, {
+    await withAsyncHandler(queryAll, MESSAGES.QUERY_DB)(notion, {
       database_id: databaseId,
       sorts: [
         {
@@ -34,21 +34,13 @@ export const databaseId = process.env.DATABASE_ID;
     .map((props) => transform(props, NotionParser.property))
     .map((props) => transform(props, escapePipe));
 
-  const readmeContent = await withAsyncHandler(
-    MESSAGES.BUILD_README,
-    buildReadmeContent,
-    {
-      count: Object.keys(readingList).length,
-      date: format(new Date(), 'yyyy--MM--dd'),
-      readingList,
-    },
-  );
+  const readmeContent = await buildReadmeContent({
+    count: Object.keys(readingList).length,
+    date: format(new Date(), 'yyyy--MM--dd'),
+    readingList,
+  });
 
   if (readmeContent) {
-    await withAsyncHandler(
-      MESSAGES.WRITE_README,
-      writeReadmeContent,
-      readmeContent,
-    );
+    await writeReadmeContent(readmeContent);
   }
 })();
