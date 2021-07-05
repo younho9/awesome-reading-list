@@ -10,5 +10,5 @@
 | Category | Link | Created Time | Read Date | Memo |
 | -------- | ---- | ------------ | --------- | ---- |
 <% readingList.forEach(function(item) { -%>
-<%- `| ${item.Category} | [${item.Title}](${item.URL}) | ${item['Created Time']} | ${item['Read Date'] ?? ''} | ${item.Memo} |` %>
+<%- `| ${item.Category ?? ''} | [${item.Title ?? ''}](${item.URL ?? ''}) | ${item['Created Time'] ?? ''} | ${item['Read Date'] ?? ''} | ${item.Memo ?? ''} |` %>
 <% })%>
