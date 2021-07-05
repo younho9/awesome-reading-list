@@ -2,8 +2,7 @@ import { Client } from '@notionhq/client/build/src';
 import { format } from 'date-fns';
 import dotenv from 'dotenv';
 
-import { flashError } from './cli';
-import { withAsyncHandler } from './cli/utils/errorHandler';
+import { flashError, withAsyncHandler } from './cli';
 import { queryAll } from './client';
 import { MESSAGES } from './constants';
 import NotionParser from './parser';
