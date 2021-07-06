@@ -2,7 +2,8 @@
   "name": "reading-list",
   "version": "0.1.0",
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/index.ts",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@notionhq/client": "^0.2.0",
