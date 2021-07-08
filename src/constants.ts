@@ -22,3 +22,5 @@ export const MESSAGES = {
     fail: 'Failed to create README',
   },
 };
+
+export const TIME_ZONE = 'Asia/Seoul';
