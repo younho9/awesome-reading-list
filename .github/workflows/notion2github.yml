@@ -2,7 +2,7 @@ name: notion2github
 
 on:
   schedule:
-    - cron: '5 1 * * *' # KST 10:05 AM on everyday
+    - cron: '0 0 * * *' # KST 9:00 AM on everyday
   push:
     branches:
       - 'ci/**'
