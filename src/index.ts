@@ -1,10 +1,10 @@
 import { Client } from '@notionhq/client/build/src';
-import { format } from 'date-fns';
+import { format, utcToZonedTime } from 'date-fns-tz';
 import dotenv from 'dotenv';
 
 import { flashError, withAsyncHandler } from './cli';
 import { queryAll } from './client';
-import { MESSAGES } from './constants';
+import { MESSAGES, TIME_ZONE as timeZone } from './constants';
 import NotionParser from './parser';
 import { buildReadmeContent, writeReadmeContent } from './render';
 import { escapePipe, transform } from './utils';
@@ -36,7 +36,9 @@ export const databaseId = process.env.DATABASE_ID;
 
   const readmeContent = await buildReadmeContent({
     count: Object.keys(readingList).length,
-    date: format(new Date(), 'yyyy--MM--dd'),
+    date: format(utcToZonedTime(new Date(), timeZone), 'yyyy--MM--dd', {
+      timeZone,
+    }),
     readingList,
   });
 

@@ -273,6 +273,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"date-fns-tz@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "date-fns-tz@npm:1.1.4"
+  peerDependencies:
+    date-fns: ">=2.0.0-alpha.13"
+  checksum: 2c835e068de275bf71920483681fb27f7bc5a72b8f1689ffe1a68cc30515259b93ac809b1b15f8909013400d36b9c8e29dc83a0bd9677aed6ffef7a2fabce2fe
+  languageName: node
+  linkType: hard
+
 "date-fns@npm:^2.22.1":
   version: 2.22.1
   resolution: "date-fns@npm:2.22.1"
@@ -517,6 +526,7 @@ __metadata:
     "@types/ora": ^3.2.0
     chalk: ^4.1.1
     date-fns: ^2.22.1
+    date-fns-tz: ^1.1.4
     dotenv: ^10.0.0
     ejs: ^3.1.6
     ora: ^5.4.1

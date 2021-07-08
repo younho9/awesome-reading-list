@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/ora", "npm:3.2.0"],
             ["chalk", "npm:4.1.1"],
             ["date-fns", "npm:2.22.1"],
+            ["date-fns-tz", "virtual:ad6aa1de50fe89415457f00971aa5eacb7b582692fe33b9ac5aa9289fce69e5a1d964d543e44e5e0a4fa2299877d8c7bdcafcea8885a5ad4b23670d77f1f209f#npm:1.1.4"],
             ["dotenv", "npm:10.0.0"],
             ["ejs", "npm:3.1.6"],
             ["ora", "npm:5.4.1"],
@@ -376,6 +377,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["date-fns-tz", [
+        ["npm:1.1.4", {
+          "packageLocation": "./.yarn/cache/date-fns-tz-npm-1.1.4-da26bfd277-2c835e068d.zip/node_modules/date-fns-tz/",
+          "packageDependencies": [
+            ["date-fns-tz", "npm:1.1.4"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:ad6aa1de50fe89415457f00971aa5eacb7b582692fe33b9ac5aa9289fce69e5a1d964d543e44e5e0a4fa2299877d8c7bdcafcea8885a5ad4b23670d77f1f209f#npm:1.1.4", {
+          "packageLocation": "./.yarn/$$virtual/date-fns-tz-virtual-55fb968029/0/cache/date-fns-tz-npm-1.1.4-da26bfd277-2c835e068d.zip/node_modules/date-fns-tz/",
+          "packageDependencies": [
+            ["date-fns-tz", "virtual:ad6aa1de50fe89415457f00971aa5eacb7b582692fe33b9ac5aa9289fce69e5a1d964d543e44e5e0a4fa2299877d8c7bdcafcea8885a5ad4b23670d77f1f209f#npm:1.1.4"],
+            ["@types/date-fns", null],
+            ["date-fns", "npm:2.22.1"]
+          ],
+          "packagePeers": [
+            "@types/date-fns",
+            "date-fns"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["defaults", [
         ["npm:1.0.3", {
           "packageLocation": "./.yarn/cache/defaults-npm-1.0.3-e829107b9e-974f63dd0a.zip/node_modules/defaults/",
@@ -647,6 +670,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/ora", "npm:3.2.0"],
             ["chalk", "npm:4.1.1"],
             ["date-fns", "npm:2.22.1"],
+            ["date-fns-tz", "virtual:ad6aa1de50fe89415457f00971aa5eacb7b582692fe33b9ac5aa9289fce69e5a1d964d543e44e5e0a4fa2299877d8c7bdcafcea8885a5ad4b23670d77f1f209f#npm:1.1.4"],
             ["dotenv", "npm:10.0.0"],
             ["ejs", "npm:3.1.6"],
             ["ora", "npm:5.4.1"],

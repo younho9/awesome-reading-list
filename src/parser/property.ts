@@ -1,5 +1,7 @@
 import * as NotionTypes from '@notionhq/client/build/src/api-types';
-import { format } from 'date-fns';
+import { utcToZonedTime, format } from 'date-fns-tz';
+
+import { TIME_ZONE as timeZone } from '../constants';
 
 const richText = (
   value: NotionTypes.TitlePropertyValue | NotionTypes.RichTextPropertyValue,
@@ -41,8 +43,16 @@ const time = (
     | NotionTypes.LastEditedTimePropertyValue,
 ) =>
   value.type === 'created_time'
-    ? format(new Date(value.created_time), 'yyyy-MM-dd HH:mm:ss')
-    : format(new Date(value.last_edited_time), 'yyyy-MM-dd HH:mm:ss');
+    ? format(
+        utcToZonedTime(new Date(value.created_time), timeZone),
+        'yyyy-MM-dd HH:mm:ss',
+        { timeZone },
+      )
+    : format(
+        utcToZonedTime(new Date(value.last_edited_time), timeZone),
+        'yyyy-MM-dd HH:mm:ss',
+        { timeZone },
+      );
 
 const user = (
   value:
