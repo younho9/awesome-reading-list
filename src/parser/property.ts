@@ -12,11 +12,10 @@ const richText = (
 
 const number = ({ number }: NotionTypes.NumberPropertyValue) => number;
 
-const select = ({ select }: NotionTypes.SelectPropertyValue) =>
-  `\`${select.name}\``;
+const select = ({ select }: NotionTypes.SelectPropertyValue) => select.name;
 
 const multiSelect = ({ multi_select }: NotionTypes.MultiSelectPropertyValue) =>
-  multi_select.map(({ name }) => `\`${name}\``).join(', ');
+  multi_select.map(({ name }) => name).join(', ');
 
 const date = ({ date }: NotionTypes.DatePropertyValue) => date.start;
 
