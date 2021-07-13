@@ -28,7 +28,8 @@ const people = ({ people }: NotionTypes.PeoplePropertyValue) => people;
 
 const files = ({ files }: NotionTypes.FilesPropertyValue) => files;
 
-const checkbox = ({ checkbox }: NotionTypes.CheckboxPropertyValue) => checkbox;
+const checkbox = ({ checkbox }: NotionTypes.CheckboxPropertyValue) =>
+  checkbox ? ':white_check_mark:' : ':x:';
 
 const url = ({ url }: NotionTypes.URLPropertyValue) => url;
 

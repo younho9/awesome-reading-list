@@ -7,8 +7,8 @@
 ![Updated](https://img.shields.io/badge/Updated-<%= date %>-blue.svg)
 <% } -%>
 
-| Category | Link | Created Time | Read Date | Memo |
+| Category | Link | Created Time | Read | Memo |
 | -------- | ---- | ------------ | --------- | ---- |
 <% readingList.forEach(function(item) { -%>
-<%- `| ${item.Category ?? ''} | [${item.Title ?? ''}](${item.URL ?? ''}) | ${item['Created Time'] ?? ''} | ${item['Read Date'] ?? ''} | ${item.Memo ?? ''} |` %>
+<%- `| ${item.Category ?? ''} | [${item.Title ?? ''}](${item.URL ?? ''}) | ${item['Created Time'] ?? ''} | ${item['Read'] ?? ''} | ${item.Memo ?? ''} |` %>
 <% })%>
