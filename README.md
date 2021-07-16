@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-12-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--15-blue.svg)
+![Total](https://img.shields.io/badge/Total-13-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--16-blue.svg)
 
 ## Contents
 
+- [git](#git)
 - [JavaScript](#JavaScript)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
@@ -14,8 +15,16 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 - [github](#github)
-- [git](#git)
 - [yarn](#yarn)
+
+## git
+
+| Link                                                                                                         | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)          | 2021-07-15 10:43:00 | :x:  |      |
+| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/) | 2021-07-08 09:36:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## JavaScript
 
@@ -73,14 +82,6 @@
 | Link                                                                              | Created Time        | Read | Memo |
 | --------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
 | [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775) | 2021-07-08 09:43:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## git
-
-| Link                                                                                                         | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
-| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/) | 2021-07-08 09:36:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
