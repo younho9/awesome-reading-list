@@ -2,13 +2,13 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-18-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--17-blue.svg)
+![Total](https://img.shields.io/badge/Total-19-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--18-blue.svg)
 
 ## Contents
 
-- [Typescript](#Typescript)
 - [JavaScript](#JavaScript)
+- [Typescript](#Typescript)
 - [git](#git)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
@@ -17,6 +17,19 @@
 - [github](#github)
 - [yarn](#yarn)
 
+## JavaScript
+
+| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
+| [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
+| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
+| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
+| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
+| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
+| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
+
 ## Typescript
 
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read | Memo |
@@ -24,18 +37,6 @@
 | [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:  |      |
 | [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:  |      |
 | [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## JavaScript
-
-| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
-| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
-| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
-| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
-| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
-| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
 
 **[⬆ Back to Index](#Contents)**
 
