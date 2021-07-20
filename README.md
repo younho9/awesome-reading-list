@@ -2,11 +2,13 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-19-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--19-blue.svg)
+![Total](https://img.shields.io/badge/Total-21-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--20-blue.svg)
 
 ## Contents
 
+- [Inversify](#Inversify)
+- [Vue](#Vue)
 - [JavaScript](#JavaScript)
 - [Typescript](#Typescript)
 - [git](#git)
@@ -16,6 +18,22 @@
 - [Mac](#Mac)
 - [github](#github)
 - [yarn](#yarn)
+
+## Inversify
+
+| Link                                                                                          | Created Time        | Read | Memo |
+| --------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Dependency injection 과 inversify, 그리고 적용해보기](https://slides.com/woongjae/inversify) | 2021-07-19 18:34:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## Vue
+
+| Link                                                                                                                                                   | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [Vue.js + TypeScript 앱에서 IoC 컨테이너 사용하기 \| Aliencube](https://blog.aliencube.org/ko/2017/03/21/using-ioc-container-in-vuejs-typescript-app/) | 2021-07-19 18:33:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## JavaScript
 
