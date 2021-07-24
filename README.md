@@ -2,11 +2,13 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-21-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--23-blue.svg)
+![Total](https://img.shields.io/badge/Total-23-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--24-blue.svg)
 
 ## Contents
 
+- [browserlist](#browserlist)
+- [yarn](#yarn)
 - [Inversify](#Inversify)
 - [Vue](#Vue)
 - [JavaScript](#JavaScript)
@@ -17,7 +19,23 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 - [github](#github)
-- [yarn](#yarn)
+
+## browserlist
+
+| Link                                                                                       | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [Browserslist is a Good Idea \| CSS-Tricks](https://css-tricks.com/browserlist-good-idea/) | 2021-07-23 21:19:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## yarn
+
+| Link                                                                                                                                                                                                                                                                                        | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [프로토콜 \| Yarn - 패키지 관리자](https://yarnpkg.com/features/protocols#why-is-the-link-protocol-recommended-over-aliases-for-path-mapping)                                                                                                                                               | 2021-07-23 21:11:00 | :x:  |      |
+| [npm 과 yarn classic, yarn 2.0 중 어떤 것을 사용할 것인가? \| by Seo Yeon, Lee \| Jun, 2021 \| Medium](https://iamssen.medium.com/npm-%EA%B3%BC-yarn-classic-yarn-2-0-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80-879ab44a3373) | 2021-07-03 22:56:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Inversify
 
@@ -106,13 +124,5 @@
 | Link                                                                              | Created Time        | Read | Memo |
 | --------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
 | [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775) | 2021-07-08 09:43:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## yarn
-
-| Link                                                                                                                                                                                                                                                                                        | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [npm 과 yarn classic, yarn 2.0 중 어떤 것을 사용할 것인가? \| by Seo Yeon, Lee \| Jun, 2021 \| Medium](https://iamssen.medium.com/npm-%EA%B3%BC-yarn-classic-yarn-2-0-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80-879ab44a3373) | 2021-07-03 22:56:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
