@@ -2,23 +2,52 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-23-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--24-blue.svg)
+![Total](https://img.shields.io/badge/Total-26-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--25-blue.svg)
 
 ## Contents
 
+- [Typescript](#Typescript)
+- [Vue](#Vue)
+- [VSCode](#VSCode)
 - [browserlist](#browserlist)
 - [yarn](#yarn)
 - [Inversify](#Inversify)
-- [Vue](#Vue)
 - [JavaScript](#JavaScript)
-- [Typescript](#Typescript)
 - [git](#git)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
 - [github](#github)
+
+## Typescript
+
+| Link                                                                                                                                                                                                                                                                   | Created Time        | Read | Memo |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Handling Safe Destructuring in TypeScript](https://kamranicus.com/typescript-safe-destructuring-patterns/)                                                                                                                                                            | 2021-07-24 19:51:00 | :x:  |      |
+| [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:  |      |
+| [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:  |      |
+| [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## Vue
+
+| Link                                                                                                                                                   | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [25 Vue Tips You Need to Know - DEV Community](https://dev.to/michaelthiessen/25-vue-tips-you-need-to-know-2h70)                                       | 2021-07-24 17:50:00 | :x:  |      |
+| [Vue.js + TypeScript 앱에서 IoC 컨테이너 사용하기 \| Aliencube](https://blog.aliencube.org/ko/2017/03/21/using-ioc-container-in-vuejs-typescript-app/) | 2021-07-19 18:33:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## VSCode
+
+| Link                                                                                                                                                                                                            | Created Time        | Read | Memo |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Easier browser debugging with Developer Tools integration in Visual Studio Code - Microsoft Edge Blog](https://blogs.windows.com/msedgedev/2021/07/16/easier-debugging-developer-tools-in-visual-studio-code/) | 2021-07-24 17:48:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## browserlist
 
@@ -45,14 +74,6 @@
 
 **[⬆ Back to Index](#Contents)**
 
-## Vue
-
-| Link                                                                                                                                                   | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
-| [Vue.js + TypeScript 앱에서 IoC 컨테이너 사용하기 \| Aliencube](https://blog.aliencube.org/ko/2017/03/21/using-ioc-container-in-vuejs-typescript-app/) | 2021-07-19 18:33:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
 ## JavaScript
 
 | Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
@@ -63,16 +84,6 @@
 | [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
 | [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
 | [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## Typescript
-
-| Link                                                                                                                                                                                                                                                                   | Created Time        | Read | Memo |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:  |      |
-| [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:  |      |
-| [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
