@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-26-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--26-blue.svg)
+![Total](https://img.shields.io/badge/Total-27-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--27-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [Typescript](#Typescript)
 - [Vue](#Vue)
 - [VSCode](#VSCode)
@@ -20,6 +21,14 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 - [github](#github)
+
+## undefined
+
+| Link                                                                                                                     | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/) | 2021-07-26 21:29:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Typescript
 
