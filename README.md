@@ -2,8 +2,8 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-27-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--07--28-blue.svg)
+![Total](https://img.shields.io/badge/Total-29-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--07--29-blue.svg)
 
 ## Contents
 
@@ -24,9 +24,11 @@
 
 ## undefined
 
-| Link                                                                                                                     | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
-| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/) | 2021-07-26 21:29:00 | :x:  |      |
+| Link                                                                                                                                                           | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Typewriter Animation That Handles Anything You Throw at It \| CSS-Tricks](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/) | 2021-07-28 09:31:00 | :x:  |      |
+| [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html)                         | 2021-07-28 09:30:00 | :x:  |      |
+| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                       | 2021-07-26 21:29:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
