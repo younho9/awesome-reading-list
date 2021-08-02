@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-29-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--01-blue.svg)
+![Total](https://img.shields.io/badge/Total-30-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--02-blue.svg)
 
 ## Contents
 
+- [JavaScript](#JavaScript)
 - [undefined](#undefined)
 - [Typescript](#Typescript)
 - [Vue](#Vue)
@@ -14,13 +15,26 @@
 - [browserlist](#browserlist)
 - [yarn](#yarn)
 - [Inversify](#Inversify)
-- [JavaScript](#JavaScript)
 - [git](#git)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
 - [github](#github)
+
+## JavaScript
+
+| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
+| [The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)                                                                                                                      | 2021-08-01 16:22:00 | :x:                |      |
+| [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
+| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
+| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
+| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
+| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
+| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## undefined
 
@@ -82,19 +96,6 @@
 | Link                                                                                          | Created Time        | Read | Memo |
 | --------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
 | [Dependency injection 과 inversify, 그리고 적용해보기](https://slides.com/woongjae/inversify) | 2021-07-19 18:34:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## JavaScript
-
-| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
-| [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
-| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
-| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
-| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
-| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
-| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
 
 **[⬆ Back to Index](#Contents)**
 
