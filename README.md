@@ -3,7 +3,7 @@
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
 ![Total](https://img.shields.io/badge/Total-30-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--03-blue.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--04-blue.svg)
 
 ## Contents
 
