@@ -2,13 +2,13 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-30-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--06-blue.svg)
+![Total](https://img.shields.io/badge/Total-31-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--07-blue.svg)
 
 ## Contents
 
-- [JavaScript](#JavaScript)
 - [undefined](#undefined)
+- [JavaScript](#JavaScript)
 - [Typescript](#Typescript)
 - [Vue](#Vue)
 - [VSCode](#VSCode)
@@ -22,6 +22,17 @@
 - [Mac](#Mac)
 - [github](#github)
 
+## undefined
+
+| Link                                                                                                                                                           | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization)                                                                   | 2021-08-06 18:53:00 | :x:  |      |
+| [Typewriter Animation That Handles Anything You Throw at It \| CSS-Tricks](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/) | 2021-07-28 09:31:00 | :x:  |      |
+| [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html)                         | 2021-07-28 09:30:00 | :x:  |      |
+| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                       | 2021-07-26 21:29:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
 ## JavaScript
 
 | Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
@@ -33,16 +44,6 @@
 | [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
 | [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
 | [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## undefined
-
-| Link                                                                                                                                                           | Created Time        | Read | Memo |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Typewriter Animation That Handles Anything You Throw at It \| CSS-Tricks](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/) | 2021-07-28 09:31:00 | :x:  |      |
-| [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html)                         | 2021-07-28 09:30:00 | :x:  |      |
-| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                       | 2021-07-26 21:29:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
