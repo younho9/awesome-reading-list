@@ -2,14 +2,18 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-31-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--07-blue.svg)
+![Total](https://img.shields.io/badge/Total-34-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--08-blue.svg)
 
 ## Contents
 
-- [undefined](#undefined)
-- [JavaScript](#JavaScript)
 - [Typescript](#Typescript)
+- [GitLab](#GitLab)
+- [GraphQL](#GraphQL)
+- [GitHub](#GitHub)
+- [JavaScript](#JavaScript)
+- [CSS](#CSS)
+- [a18y](#a18y)
 - [Vue](#Vue)
 - [VSCode](#VSCode)
 - [browserlist](#browserlist)
@@ -20,16 +24,41 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
-- [github](#github)
 
-## undefined
+## Typescript
 
-| Link                                                                                                                                                           | Created Time        | Read | Memo |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization)                                                                   | 2021-08-06 18:53:00 | :x:  |      |
-| [Typewriter Animation That Handles Anything You Throw at It \| CSS-Tricks](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/) | 2021-07-28 09:31:00 | :x:  |      |
-| [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html)                         | 2021-07-28 09:30:00 | :x:  |      |
-| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                       | 2021-07-26 21:29:00 | :x:  |      |
+| Link                                                                                                                                                                                                                                                                   | Created Time        | Read | Memo |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Typescript generic to turn underscore object to camel case - Stack Overflow](https://stackoverflow.com/questions/57807009/typescript-generic-to-turn-underscore-object-to-camel-case?fbclid=IwAR2RYsG-LBbA2lTfRZaxURAsyEoQqA9eCqkRpP1s3G0Uxtxpt8UaFPbkpyk)            | 2021-08-07 21:29:00 | :x:  |      |
+| [Handling Safe Destructuring in TypeScript](https://kamranicus.com/typescript-safe-destructuring-patterns/)                                                                                                                                                            | 2021-07-24 19:51:00 | :x:  |      |
+| [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:  |      |
+| [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:  |      |
+| [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## GitLab
+
+| Link                                                                                                                                | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [npm packages in the Package Registry \| GitLab](https://docs.gitlab.com/ee/user/packages/npm_registry/#project-level-npm-endpoint) | 2021-08-07 16:46:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## GraphQL
+
+| Link                                                                                 | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
+| [How to GraphQL - The Fullstack Tutorial for GraphQL](https://www.howtographql.com/) | 2021-08-07 15:30:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## GitHub
+
+| Link                                                                                         | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization) | 2021-08-06 18:53:00 | :x:  |      |
+| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)            | 2021-07-08 09:43:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -38,6 +67,7 @@
 | Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
 | [The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)                                                                                                                      | 2021-08-01 16:22:00 | :x:                |      |
+| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                                                         | 2021-07-26 21:29:00 | :x:                |      |
 | [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
 | [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
 | [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
@@ -47,14 +77,19 @@
 
 **[⬆ Back to Index](#Contents)**
 
-## Typescript
+## CSS
 
-| Link                                                                                                                                                                                                                                                                   | Created Time        | Read | Memo |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Handling Safe Destructuring in TypeScript](https://kamranicus.com/typescript-safe-destructuring-patterns/)                                                                                                                                                            | 2021-07-24 19:51:00 | :x:  |      |
-| [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:  |      |
-| [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:  |      |
-| [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:  |      |
+| Link                                                                                                                                                           | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Typewriter Animation That Handles Anything You Throw at It \| CSS-Tricks](https://css-tricks.com/typewriter-animation-that-handles-anything-you-throw-at-it/) | 2021-07-28 09:31:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## a18y
+
+| Link                                                                                                                                   | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Creating an accessible autocomplete experience – React Spectrum Blog](https://react-spectrum.adobe.com/blog/building-a-combobox.html) | 2021-07-28 09:30:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -140,13 +175,5 @@
 | Link                                                                        | Created Time        | Read | Memo |
 | --------------------------------------------------------------------------- | ------------------- | ---- | ---- |
 | [Mac의 클립보드 명령어 - pbcopy & pbpaste](https://jojoldu.tistory.com/466) | 2021-07-08 12:51:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## github
-
-| Link                                                                              | Created Time        | Read | Memo |
-| --------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775) | 2021-07-08 09:43:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
