@@ -3,7 +3,7 @@
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
 ![Total](https://img.shields.io/badge/Total-37-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--09-blue.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--10-blue.svg)
 
 ## Contents
 
@@ -59,10 +59,10 @@
 
 ## GitHub
 
-| Link                                                                                         | Created Time        | Read | Memo |
-| -------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization) | 2021-08-06 18:53:00 | :x:  |      |
-| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)            | 2021-07-08 09:43:00 | :x:  |      |
+| Link                                                                                         | Created Time        | Read               | Memo                   |
+| -------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------- |
+| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization) | 2021-08-06 18:53:00 | :white_check_mark: | Visualizing a codebase |
+| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)            | 2021-07-08 09:43:00 | :x:                |                        |
 
 **[⬆ Back to Index](#Contents)**
 
