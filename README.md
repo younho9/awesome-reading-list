@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-37-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--10-blue.svg)
+![Total](https://img.shields.io/badge/Total-40-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--11-blue.svg)
 
 ## Contents
 
+- [npm](#npm)
 - [Typescript](#Typescript)
 - [GitLab](#GitLab)
 - [GraphQL](#GraphQL)
@@ -25,10 +26,20 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 
+## npm
+
+| Link                                                                                                                                                 | Created Time        | Read               | Memo |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---- |
+| [Self-Documented Makefile](https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html)                                                       | 2021-08-10 22:15:00 | :x:                |      |
+| [Why I Prefer Makefiles Over package.json Scripts for Node.js Projects](https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/) | 2021-08-10 22:00:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
+
 ## Typescript
 
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read               | Memo                                                                                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)                                                                                                                                                                                | 2021-08-10 21:02:00 | :white_check_mark: | `interface ObjectConstructor` 를 생성해서 Declaration Merging을 활용하자                                                                                              |
 | [TypeScript enum을 사용하지 않는 게 좋은 이유를 Tree-shaking 관점에서 소개합니다. - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/typescript-enum-tree-shaking/)                                                                                          | 2021-08-09 09:01:00 | :white_check_mark: | Union Types > const enum > enum                                                                                                                                       |
 | [TypeScript: Documentation - Using Babel with TypeScript](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html)                                                                                                                                     | 2021-08-09 08:36:00 | :white_check_mark: | Babel for transpiling, tsc for types                                                                                                                                  |
 | [바벨과 타입스크립트의 아름다운 결혼 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20181220)                                                                                                                                            | 2021-08-09 08:21:00 | :white_check_mark: | 더 이상, 두 개의 자바스크립트 컴파일러와 씨름할 필요가 없다. 바벨을 린터, 테스트러너, 빌드시스템, 그리고 보일러플레이트와 통합하여 프로젝트 구성을 간소화하길 바란다. |
