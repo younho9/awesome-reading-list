@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-40-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--12-blue.svg)
+![Total](https://img.shields.io/badge/Total-41-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--13-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [npm](#npm)
 - [Typescript](#Typescript)
 - [GitLab](#GitLab)
@@ -25,6 +26,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                                          | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/) | 2021-08-12 19:59:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## npm
 
