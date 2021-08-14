@@ -2,8 +2,8 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-41-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--13-blue.svg)
+![Total](https://img.shields.io/badge/Total-42-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--14-blue.svg)
 
 ## Contents
 
@@ -29,9 +29,10 @@
 
 ## undefined
 
-| Link                                                                                                                          | Created Time        | Read | Memo |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/) | 2021-08-12 19:59:00 | :x:  |      |
+| Link                                                                                                                                  | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Incremental PRs: a new GitHub workflow for the Gatsby Cloud team \| Gatsby](https://www.gatsbyjs.com/blog/2020-01-08-git-workflows/) | 2021-08-14 09:13:00 | :x:  |      |
+| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/)         | 2021-08-12 19:59:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
