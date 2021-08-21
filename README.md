@@ -2,17 +2,18 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-42-green.svg)
+![Total](https://img.shields.io/badge/Total-44-green.svg)
 ![Updated](https://img.shields.io/badge/Updated-2021--08--21-blue.svg)
 
 ## Contents
 
-- [undefined](#undefined)
+- [Blog](#Blog)
+- [GitHub](#GitHub)
+- [React](#React)
 - [npm](#npm)
 - [Typescript](#Typescript)
 - [GitLab](#GitLab)
 - [GraphQL](#GraphQL)
-- [GitHub](#GitHub)
 - [JavaScript](#JavaScript)
 - [CSS](#CSS)
 - [a18y](#a18y)
@@ -27,12 +28,30 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 
-## undefined
+## Blog
 
-| Link                                                                                                                                  | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Incremental PRs: a new GitHub workflow for the Gatsby Cloud team \| Gatsby](https://www.gatsbyjs.com/blog/2020-01-08-git-workflows/) | 2021-08-14 09:13:00 | :x:  |      |
-| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/)         | 2021-08-12 19:59:00 | :x:  |      |
+| Link                                           | Created Time        | Read               | Memo |
+| ---------------------------------------------- | ------------------- | ------------------ | ---- |
+| [Max Böck](https://mxb.dev/)                   | 2021-08-21 10:29:00 | :x:                |      |
+| [Jonathan Briehl](https://jonathanbriehl.com/) | 2021-08-21 10:26:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## GitHub
+
+| Link                                                                                                                                  | Created Time        | Read               | Memo                   |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------- |
+| [Incremental PRs: a new GitHub workflow for the Gatsby Cloud team \| Gatsby](https://www.gatsbyjs.com/blog/2020-01-08-git-workflows/) | 2021-08-14 09:13:00 | :x:                |                        |
+| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization)                                          | 2021-08-06 18:53:00 | :white_check_mark: | Visualizing a codebase |
+| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)                                                     | 2021-07-08 09:43:00 | :x:                |                        |
+
+**[⬆ Back to Index](#Contents)**
+
+## React
+
+| Link                                                                                                                          | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/) | 2021-08-12 19:59:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -75,15 +94,6 @@
 | Link                                                                                 | Created Time        | Read | Memo |
 | ------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
 | [How to GraphQL - The Fullstack Tutorial for GraphQL](https://www.howtographql.com/) | 2021-08-07 15:30:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## GitHub
-
-| Link                                                                                         | Created Time        | Read               | Memo                   |
-| -------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------- |
-| [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization) | 2021-08-06 18:53:00 | :white_check_mark: | Visualizing a codebase |
-| [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)            | 2021-07-08 09:43:00 | :x:                |                        |
 
 **[⬆ Back to Index](#Contents)**
 
