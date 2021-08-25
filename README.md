@@ -2,12 +2,13 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-44-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--24-blue.svg)
+![Total](https://img.shields.io/badge/Total-46-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--25-blue.svg)
 
 ## Contents
 
 - [Blog](#Blog)
+- [NextJS](#NextJS)
 - [GitHub](#GitHub)
 - [React](#React)
 - [npm](#npm)
@@ -30,10 +31,19 @@
 
 ## Blog
 
-| Link                                           | Created Time        | Read               | Memo |
-| ---------------------------------------------- | ------------------- | ------------------ | ---- |
-| [Max Böck](https://mxb.dev/)                   | 2021-08-21 10:29:00 | :x:                |      |
-| [Jonathan Briehl](https://jonathanbriehl.com/) | 2021-08-21 10:26:00 | :white_check_mark: |      |
+| Link                                                             | Created Time        | Read               | Memo |
+| ---------------------------------------------------------------- | ------------------- | ------------------ | ---- |
+| [Lee Robinson – Developer, writer, creator.](https://leerob.io/) | 2021-08-25 08:31:00 | :x:                |      |
+| [Max Böck](https://mxb.dev/)                                     | 2021-08-21 10:29:00 | :x:                |      |
+| [Jonathan Briehl](https://jonathanbriehl.com/)                   | 2021-08-21 10:26:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## NextJS
+
+| Link                                                                                                        | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Migrating this Blog to Next.js from Gatsby \| Eyas's Blog](https://blog.eyas.sh/2021/08/gatsby-to-next-js) | 2021-08-25 08:29:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
