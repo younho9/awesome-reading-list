@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-48-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--29-blue.svg)
+![Total](https://img.shields.io/badge/Total-49-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--30-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [Typescript](#Typescript)
 - [Blog](#Blog)
 - [NextJS](#NextJS)
@@ -28,6 +29,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                                                                                                                     | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [7 Utility Types that Every TypeScript Developer Should Know \| by Juno Ng \| Aug, 2021 \| Medium](https://medium.com/@juno_ng/7-utility-types-that-every-typescript-developer-should-know-788fe73421f1) | 2021-08-29 12:54:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Typescript
 
