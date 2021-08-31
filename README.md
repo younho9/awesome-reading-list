@@ -2,12 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-49-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--08--30-blue.svg)
+![Total](https://img.shields.io/badge/Total-51-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--08--31-blue.svg)
 
 ## Contents
 
-- [undefined](#undefined)
+- [git](#git)
 - [Typescript](#Typescript)
 - [Blog](#Blog)
 - [NextJS](#NextJS)
@@ -24,17 +24,19 @@
 - [browserlist](#browserlist)
 - [yarn](#yarn)
 - [Inversify](#Inversify)
-- [git](#git)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
 
-## undefined
+## git
 
-| Link                                                                                                                                                                                                     | Created Time        | Read | Memo |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [7 Utility Types that Every TypeScript Developer Should Know \| by Juno Ng \| Aug, 2021 \| Medium](https://medium.com/@juno_ng/7-utility-types-that-every-typescript-developer-should-know-788fe73421f1) | 2021-08-29 12:54:00 | :x:  |      |
+| Link                                                                                                                                                                                                        | Created Time        | Read               | Memo |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---- |
+| [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까? - Kwoncharles Blog](https://kwoncheol.me/posts/git-rename-inference)                                                                                     | 2021-08-31 00:26:00 | :white_check_mark: |      |
+| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/) | 2021-07-16 09:33:00 | :x:                |      |
+| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                         | 2021-07-15 10:43:00 | :x:                |      |
+| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                | 2021-07-08 09:36:00 | :x:                |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -42,6 +44,8 @@
 
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read               | Memo                                                                                                                                                                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [TypeScript: narrowing types via type guards and assertion functions](https://2ality.com/2020/06/type-guards-assertion-functions-typescript.html)                                                                                                                      | 2021-08-30 19:12:00 | :white_check_mark: |                                                                                                                                                                                                                                                                                                               |
+| [7 Utility Types that Every TypeScript Developer Should Know \| by Juno Ng \| Aug, 2021 \| Medium](https://medium.com/@juno_ng/7-utility-types-that-every-typescript-developer-should-know-788fe73421f1)                                                               | 2021-08-29 12:54:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [typescript - Generic type extending union is not narrowed by type guard - Stack Overflow](https://stackoverflow.com/questions/60475431/generic-type-extending-union-is-not-narrowed-by-type-guard)                                                                    | 2021-08-26 19:18:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [TypeScript Advanced Types — Nullable Types and Type Aliases \| by John Au-Yeung \| Level Up Coding](https://levelup.gitconnected.com/typescript-advanced-types-nullable-types-and-type-aliases-847f03b08fae)                                                          | 2021-08-26 14:40:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)                                                                                                                                                                                | 2021-08-10 21:02:00 | :white_check_mark: | `interface ObjectConstructor` 를 생성해서 Declaration Merging을 활용하자                                                                                                                                                                                                                                      |
@@ -187,16 +191,6 @@
 | Link                                                                                          | Created Time        | Read | Memo |
 | --------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
 | [Dependency injection 과 inversify, 그리고 적용해보기](https://slides.com/woongjae/inversify) | 2021-07-19 18:34:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## git
-
-| Link                                                                                                                                                                                                        | Created Time        | Read | Memo |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/) | 2021-07-16 09:33:00 | :x:  |      |
-| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                         | 2021-07-15 10:43:00 | :x:  |      |
-| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                | 2021-07-08 09:36:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
