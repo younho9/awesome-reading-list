@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-52-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--02-blue.svg)
+![Total](https://img.shields.io/badge/Total-53-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--03-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [Vue](#Vue)
 - [git](#git)
 - [Typescript](#Typescript)
@@ -28,6 +29,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                       | Created Time        | Read | Memo |
+| ---------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [How I Built my Blog using MDX, Next.js, and React](https://www.joshwcomeau.com/blog/how-i-built-my-blog/) | 2021-09-03 08:34:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Vue
 
