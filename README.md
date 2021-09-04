@@ -7,12 +7,11 @@
 
 ## Contents
 
-- [undefined](#undefined)
+- [NextJS](#NextJS)
 - [Vue](#Vue)
 - [git](#git)
 - [Typescript](#Typescript)
 - [Blog](#Blog)
-- [NextJS](#NextJS)
 - [GitHub](#GitHub)
 - [React](#React)
 - [npm](#npm)
@@ -30,11 +29,12 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 
-## undefined
+## NextJS
 
-| Link                                                                                                       | Created Time        | Read | Memo |
-| ---------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [How I Built my Blog using MDX, Next.js, and React](https://www.joshwcomeau.com/blog/how-i-built-my-blog/) | 2021-09-03 08:34:00 | :x:  |      |
+| Link                                                                                                        | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [How I Built my Blog using MDX, Next.js, and React](https://www.joshwcomeau.com/blog/how-i-built-my-blog/)  | 2021-09-03 08:34:00 | :x:  |      |
+| [Migrating this Blog to Next.js from Gatsby \| Eyas's Blog](https://blog.eyas.sh/2021/08/gatsby-to-next-js) | 2021-08-25 08:29:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -50,12 +50,12 @@
 
 ## git
 
-| Link                                                                                                                                                                                                        | Created Time        | Read               | Memo                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ------------------------------ |
-| [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까? - Kwoncharles Blog](https://kwoncheol.me/posts/git-rename-inference)                                                                                     | 2021-08-31 00:26:00 | :white_check_mark: | 50% 이상 유사시 ‘edit-renamed’ |
-| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/) | 2021-07-16 09:33:00 | :x:                |                                |
-| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                         | 2021-07-15 10:43:00 | :x:                |                                |
-| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                | 2021-07-08 09:36:00 | :x:                |                                |
+| Link                                                                                                                                                                                                        | Created Time        | Read               | Memo                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------------- |
+| [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까? - Kwoncharles Blog](https://kwoncheol.me/posts/git-rename-inference)                                                                                     | 2021-08-31 00:26:00 | :white_check_mark: | 50% 이상 유사시 edit-renamed |
+| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/) | 2021-07-16 09:33:00 | :x:                |                              |
+| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                         | 2021-07-15 10:43:00 | :x:                |                              |
+| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                | 2021-07-08 09:36:00 | :x:                |                              |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -64,10 +64,10 @@
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read               | Memo                                                                                                                                                                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [TypeScript: narrowing types via type guards and assertion functions](https://2ality.com/2020/06/type-guards-assertion-functions-typescript.html)                                                                                                                      | 2021-08-30 19:12:00 | :white_check_mark: | assert로 타입 좁히는 것이 가능하구나                                                                                                                                                                                                                                                                          |
-| [7 Utility Types that Every TypeScript Developer Should Know \| by Juno Ng \| Aug, 2021 \| Medium](https://medium.com/@juno_ng/7-utility-types-that-every-typescript-developer-should-know-788fe73421f1)                                                               | 2021-08-29 12:54:00 | :white_check_mark: | ‘ReturnType<Type>‘ 한번 써봐야겠다.                                                                                                                                                                                                                                                                           |
+| [7 Utility Types that Every TypeScript Developer Should Know \| by Juno Ng \| Aug, 2021 \| Medium](https://medium.com/@juno_ng/7-utility-types-that-every-typescript-developer-should-know-788fe73421f1)                                                               | 2021-08-29 12:54:00 | :white_check_mark: | ReturnType<Type> 한번 써봐야겠다.                                                                                                                                                                                                                                                                             |
 | [typescript - Generic type extending union is not narrowed by type guard - Stack Overflow](https://stackoverflow.com/questions/60475431/generic-type-extending-union-is-not-narrowed-by-type-guard)                                                                    | 2021-08-26 19:18:00 | :white_check_mark: | 일반 변수에는 control flow type narrowing이 적용되지만 타입 변수에는 적용되지 않는다.                                                                                                                                                                                                                         |
 | [TypeScript Advanced Types — Nullable Types and Type Aliases \| by John Au-Yeung \| Level Up Coding](https://levelup.gitconnected.com/typescript-advanced-types-nullable-types-and-type-aliases-847f03b08fae)                                                          | 2021-08-26 14:40:00 | :white_check_mark: | Nullable과 optional property에 대한 혼란이 있을 수 있다.                                                                                                                                                                                                                                                      |
-| [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)                                                                                                                                                                                | 2021-08-10 21:02:00 | :white_check_mark: | `interface ObjectConstructor` 를 생성해서 Declaration Merging을 활용하자                                                                                                                                                                                                                                      |
+| [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)                                                                                                                                                                                | 2021-08-10 21:02:00 | :white_check_mark: | interface ObjectConstructor 를 생성해서 Declaration Merging을 활용하자                                                                                                                                                                                                                                        |
 | [TypeScript enum을 사용하지 않는 게 좋은 이유를 Tree-shaking 관점에서 소개합니다. - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/typescript-enum-tree-shaking/)                                                                                          | 2021-08-09 09:01:00 | :white_check_mark: | Union Types > const enum > enum                                                                                                                                                                                                                                                                               |
 | [TypeScript: Documentation - Using Babel with TypeScript](https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html)                                                                                                                                     | 2021-08-09 08:36:00 | :white_check_mark: | Babel for transpiling, tsc for types                                                                                                                                                                                                                                                                          |
 | [바벨과 타입스크립트의 아름다운 결혼 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20181220)                                                                                                                                            | 2021-08-09 08:21:00 | :white_check_mark: | 더 이상, 두 개의 자바스크립트 컴파일러와 씨름할 필요가 없다. 바벨을 린터, 테스트러너, 빌드시스템, 그리고 보일러플레이트와 통합하여 프로젝트 구성을 간소화하길 바란다. 바벨과 타입스크립트 콤보는 번개처럼 빨리 컴파일 할 수 있으며, 타입 검사를 할 준비가 되었을 때만 타입 검사를 포함한 컴파일을 할 수 있다. |
@@ -86,14 +86,6 @@
 | [Lee Robinson – Developer, writer, creator.](https://leerob.io/) | 2021-08-25 08:31:00 | :white_check_mark: |      |
 | [Max Böck](https://mxb.dev/)                                     | 2021-08-21 10:29:00 | :white_check_mark: |      |
 | [Jonathan Briehl](https://jonathanbriehl.com/)                   | 2021-08-21 10:26:00 | :white_check_mark: |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## NextJS
-
-| Link                                                                                                        | Created Time        | Read | Memo |
-| ----------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Migrating this Blog to Next.js from Gatsby \| Eyas's Blog](https://blog.eyas.sh/2021/08/gatsby-to-next-js) | 2021-08-25 08:29:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
