@@ -2,32 +2,91 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-53-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--04-blue.svg)
+![Total](https://img.shields.io/badge/Total-59-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--05-blue.svg)
 
 ## Contents
 
+- [Babel](#Babel)
+- [yarn](#yarn)
+- [JavaScript](#JavaScript)
+- [git](#git)
+- [Blog](#Blog)
 - [NextJS](#NextJS)
 - [Vue](#Vue)
-- [git](#git)
 - [Typescript](#Typescript)
-- [Blog](#Blog)
 - [GitHub](#GitHub)
 - [React](#React)
 - [npm](#npm)
 - [GitLab](#GitLab)
 - [GraphQL](#GraphQL)
-- [JavaScript](#JavaScript)
 - [CSS](#CSS)
 - [a18y](#a18y)
 - [VSCode](#VSCode)
 - [browserlist](#browserlist)
-- [yarn](#yarn)
 - [Inversify](#Inversify)
 - [Nuxt](#Nuxt)
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## Babel
+
+| Link                                                                                                                                 | Created Time        | Read               | Memo                                |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ----------------------------------- |
+| [트리 쉐이킹으로 자바스크립트 페이로드 줄이기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20180716) | 2021-09-04 21:08:00 | :x:                |                                     |
+| [Transpile to ES modules with Babel](https://krasimirtsonev.com/blog/article/transpile-to-esm-with-babel)                            | 2021-09-04 19:10:00 | :white_check_mark: | { "loose": true, "modules": false } |
+
+**[⬆ Back to Index](#Contents)**
+
+## yarn
+
+| Link                                                                                                                                                                                                                                                                                        | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Building a Monorepo with Yarn 2 \| Heroku](https://blog.heroku.com/building-a-monorepo-with-yarn-2)                                                                                                                                                                                        | 2021-09-04 19:13:00 | :x:  |      |
+| [프로토콜 \| Yarn - 패키지 관리자](https://yarnpkg.com/features/protocols#why-is-the-link-protocol-recommended-over-aliases-for-path-mapping)                                                                                                                                               | 2021-07-23 21:11:00 | :x:  |      |
+| [npm 과 yarn classic, yarn 2.0 중 어떤 것을 사용할 것인가? \| by Seo Yeon, Lee \| Jun, 2021 \| Medium](https://iamssen.medium.com/npm-%EA%B3%BC-yarn-classic-yarn-2-0-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80-879ab44a3373) | 2021-07-03 22:56:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## JavaScript
+
+| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
+| [Use a source map - Firefox Developer Tools \| MDN](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map)                                                             | 2021-09-04 18:49:00 | :x:                |      |
+| [The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)                                                                                                                      | 2021-08-01 16:22:00 | :x:                |      |
+| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                                                         | 2021-07-26 21:29:00 | :x:                |      |
+| [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
+| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
+| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
+| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
+| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
+| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## git
+
+| Link                                                                                                                                                                                                                  | Created Time        | Read               | Memo                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------------- |
+| [How to Setup Monorepos with Git for JavaScript and TypeScript \| by Hieu Nguyen (Jack) \| Aug, 2021 \| Medium](https://hieunc.medium.com/how-to-setup-monorepos-with-git-for-javascript-and-typescript-d42f1294c0d2) | 2021-09-04 12:01:00 | :x:                |                              |
+| [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까? - Kwoncharles Blog](https://kwoncheol.me/posts/git-rename-inference)                                                                                               | 2021-08-31 00:26:00 | :white_check_mark: | 50% 이상 유사시 edit-renamed |
+| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/)           | 2021-07-16 09:33:00 | :x:                |                              |
+| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                                   | 2021-07-15 10:43:00 | :x:                |                              |
+| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                          | 2021-07-08 09:36:00 | :x:                |                              |
+
+**[⬆ Back to Index](#Contents)**
+
+## Blog
+
+| Link                                                             | Created Time        | Read               | Memo |
+| ---------------------------------------------------------------- | ------------------- | ------------------ | ---- |
+| [Blog Posts ・ Andrew Branch](https://blog.andrewbran.ch/)       | 2021-09-04 12:01:00 | :x:                |      |
+| [Lee Robinson – Developer, writer, creator.](https://leerob.io/) | 2021-08-25 08:31:00 | :white_check_mark: |      |
+| [Max Böck](https://mxb.dev/)                                     | 2021-08-21 10:29:00 | :white_check_mark: |      |
+| [Jonathan Briehl](https://jonathanbriehl.com/)                   | 2021-08-21 10:26:00 | :white_check_mark: |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## NextJS
 
@@ -48,17 +107,6 @@
 
 **[⬆ Back to Index](#Contents)**
 
-## git
-
-| Link                                                                                                                                                                                                        | Created Time        | Read               | Memo                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---------------------------- |
-| [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까? - Kwoncharles Blog](https://kwoncheol.me/posts/git-rename-inference)                                                                                     | 2021-08-31 00:26:00 | :white_check_mark: | 50% 이상 유사시 edit-renamed |
-| [Git 과거의 특정 커밋 수정하기 - 뒤태지존의 끄적거림](https://homoefficio.github.io/2017/04/16/Git-%EA%B3%BC%EA%B1%B0%EC%9D%98-%ED%8A%B9%EC%A0%95-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0/) | 2021-07-16 09:33:00 | :x:                |                              |
-| [[Git]Tag 추가, 변경 및 삭제하기](http://minsone.github.io/git/git-addtion-and-modified-delete-tag)                                                                                                         | 2021-07-15 10:43:00 | :x:                |                              |
-| [Conditional Git configuration - Jiayu's Blog](https://blog.jiayu.co/2019/02/conditional-git-configuration/)                                                                                                | 2021-07-08 09:36:00 | :x:                |                              |
-
-**[⬆ Back to Index](#Contents)**
-
 ## Typescript
 
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read               | Memo                                                                                                                                                                                                                                                                                                          |
@@ -76,16 +124,6 @@
 | [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
-
-**[⬆ Back to Index](#Contents)**
-
-## Blog
-
-| Link                                                             | Created Time        | Read               | Memo |
-| ---------------------------------------------------------------- | ------------------- | ------------------ | ---- |
-| [Lee Robinson – Developer, writer, creator.](https://leerob.io/) | 2021-08-25 08:31:00 | :white_check_mark: |      |
-| [Max Böck](https://mxb.dev/)                                     | 2021-08-21 10:29:00 | :white_check_mark: |      |
-| [Jonathan Briehl](https://jonathanbriehl.com/)                   | 2021-08-21 10:26:00 | :white_check_mark: |      |
 
 **[⬆ Back to Index](#Contents)**
 
@@ -132,21 +170,6 @@
 
 **[⬆ Back to Index](#Contents)**
 
-## JavaScript
-
-| Link                                                                                                                                                                                             | Created Time        | Read               | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------------ | ---- |
-| [The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)                                                                                                                      | 2021-08-01 16:22:00 | :x:                |      |
-| [JavaScript Promises: then(f,f) vs then(f).catch(f)](https://dmitripavlutin.com/javascript-promises-then-vs-then-catch/)                                                                         | 2021-07-26 21:29:00 | :x:                |      |
-| [Notion API: Getting Started with Notion's JavaScript SDK - SitePoint](https://www.sitepoint.com/notion-api-javascript-sdk/)                                                                     | 2021-07-17 10:10:00 | :x:                |      |
-| [Async Getters and Setters. Is it Possible? \| by David Barral \| Trabe \| Medium](https://medium.com/trabe/async-getters-and-setters-is-it-possible-c18759b6f7e4)                               | 2021-07-16 16:16:00 | :x:                |      |
-| [this \| PoiemaWeb](https://poiemaweb.com/js-this#3-%EC%83%9D%EC%84%B1%EC%9E%90-%ED%98%B8%EC%B6%9C-%ED%8C%A8%ED%84%B4constructor-invocation-pattern)                                             | 2021-07-16 09:35:00 | :x:                |      |
-| [`export default thing` is different to `export { thing as default }` - JakeArchibald.com](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/)                             | 2021-07-13 08:36:00 | :x:                |      |
-| [You Can Definitely Use Global Variables To Manage Global State In React - DEV Community](https://dev.to/yezyilomo/you-can-definitely-use-global-variables-to-manage-global-state-in-react-17l3) | 2021-07-13 08:24:00 | :x:                |      |
-| [JavaScript: What is the meaning of this?](https://web.dev/javascript-this/)                                                                                                                     | 2021-07-09 08:03:00 | :white_check_mark: |      |
-
-**[⬆ Back to Index](#Contents)**
-
 ## CSS
 
 | Link                                                                                                                                                           | Created Time        | Read | Memo |
@@ -176,15 +199,6 @@
 | Link                                                                                       | Created Time        | Read | Memo |
 | ------------------------------------------------------------------------------------------ | ------------------- | ---- | ---- |
 | [Browserslist is a Good Idea \| CSS-Tricks](https://css-tricks.com/browserlist-good-idea/) | 2021-07-23 21:19:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## yarn
-
-| Link                                                                                                                                                                                                                                                                                        | Created Time        | Read | Memo |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [프로토콜 \| Yarn - 패키지 관리자](https://yarnpkg.com/features/protocols#why-is-the-link-protocol-recommended-over-aliases-for-path-mapping)                                                                                                                                               | 2021-07-23 21:11:00 | :x:  |      |
-| [npm 과 yarn classic, yarn 2.0 중 어떤 것을 사용할 것인가? \| by Seo Yeon, Lee \| Jun, 2021 \| Medium](https://iamssen.medium.com/npm-%EA%B3%BC-yarn-classic-yarn-2-0-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80-879ab44a3373) | 2021-07-03 22:56:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
