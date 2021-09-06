@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-59-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--05-blue.svg)
+![Total](https://img.shields.io/badge/Total-60-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--06-blue.svg)
 
 ## Contents
 
+- [monorepo](#monorepo)
 - [Babel](#Babel)
 - [yarn](#yarn)
 - [JavaScript](#JavaScript)
@@ -29,6 +30,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## monorepo
+
+| Link                                                                                                                                                                                                                                                                                                                                          | Created Time        | Read | Memo |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Rush로 프론트엔드 모노레포 도입기. 이 글에서는 밀당 영어 프론트엔드에서 커다란 코드 덩어리로 되어 있던… \| by Jeong Seong Dae \| 밀당 팀블로그 \| Aug, 2021 \| Medium](https://medium.com/mildang/rush%EB%A1%9C-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%AA%A8%EB%85%B8%EB%A0%88%ED%8F%AC-%EB%8F%84%EC%9E%85%EA%B8%B0-5da0c5bc9b30) | 2021-09-05 19:26:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Babel
 
