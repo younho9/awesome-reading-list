@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-61-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--11-blue.svg)
+![Total](https://img.shields.io/badge/Total-62-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--12-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [Typescript](#Typescript)
 - [monorepo](#monorepo)
 - [Babel](#Babel)
@@ -30,6 +31,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                                                              | Created Time        | Read | Memo |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Is babel still relevant for TypeScript projects ? - DEV Community](https://dev.to/mbeaudru/is-babel-still-relevant-for-typescript-projects-36a7) | 2021-09-11 21:28:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Typescript
 
