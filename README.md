@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-63-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--14-blue.svg)
+![Total](https://img.shields.io/badge/Total-64-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--15-blue.svg)
 
 ## Contents
 
+- [Component](#Component)
 - [npm](#npm)
 - [Typescript](#Typescript)
 - [monorepo](#monorepo)
@@ -30,6 +31,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## Component
+
+| Link                                                                                      | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Pedro Duarte — Variant-driven Components](https://ped.ro/blog/variant-driven-components) | 2021-09-14 10:50:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## npm
 
