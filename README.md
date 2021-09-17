@@ -2,14 +2,14 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-64-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--16-blue.svg)
+![Total](https://img.shields.io/badge/Total-65-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--17-blue.svg)
 
 ## Contents
 
+- [Typescript](#Typescript)
 - [Component](#Component)
 - [npm](#npm)
-- [Typescript](#Typescript)
 - [monorepo](#monorepo)
 - [Babel](#Babel)
 - [yarn](#yarn)
@@ -32,28 +32,11 @@
 - [PWA](#PWA)
 - [Mac](#Mac)
 
-## Component
-
-| Link                                                                                      | Created Time        | Read | Memo |
-| ----------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [Pedro Duarte — Variant-driven Components](https://ped.ro/blog/variant-driven-components) | 2021-09-14 10:50:00 | :x:  |      |
-
-**[⬆ Back to Index](#Contents)**
-
-## npm
-
-| Link                                                                                                                                                 | Created Time        | Read               | Memo                                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Implicit transitive peer dependencies - DEV Community](https://dev.to/arcanis/implicit-transitive-peer-dependencies-ed0)                            | 2021-09-13 17:08:00 | :white_check_mark: | 종속성의 `peerDependencies`를 `peerDependencies` 또는 `dependencies` 로 명시하자. 암시적으로 종속성의 `peerDependencies`를 상속받을 수 없다. |
-| [Self-Documented Makefile](https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html)                                                       | 2021-08-10 22:15:00 | :x:                |                                                                                                                                              |
-| [Why I Prefer Makefiles Over package.json Scripts for Node.js Projects](https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/) | 2021-08-10 22:00:00 | :white_check_mark: |                                                                                                                                              |
-
-**[⬆ Back to Index](#Contents)**
-
 ## Typescript
 
 | Link                                                                                                                                                                                                                                                                   | Created Time        | Read               | Memo                                                                                                                                                                                                                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [](https://fettblog.eu/typescript-union-to-intersection/)                                                                                                                                                                                                              | 2021-09-16 18:51:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [Is babel still relevant for TypeScript projects ? - DEV Community](https://dev.to/mbeaudru/is-babel-still-relevant-for-typescript-projects-36a7)                                                                                                                      | 2021-09-11 21:28:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [TypeScript: Improving Object.keys](https://fettblog.eu/typescript-better-object-keys/)                                                                                                                                                                                | 2021-09-07 10:40:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [TypeScript: narrowing types via type guards and assertion functions](https://2ality.com/2020/06/type-guards-assertion-functions-typescript.html)                                                                                                                      | 2021-08-30 19:12:00 | :white_check_mark: | assert로 타입 좁히는 것이 가능하구나                                                                                                                                                                                                                                                                          |
@@ -69,6 +52,24 @@
 | [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) \| by Seo Yeon, Lee \| Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2) | 2021-07-16 18:10:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [타입스크립트 정리: 전통적인 OOP 패턴 피하기 \| TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20210107)                                                                                                                                    | 2021-07-16 17:14:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
 | [Deep property access in TypeScript - codewithstyle.info](https://codewithstyle.info/Deep-property-access-in-TypeScript/)                                                                                                                                              | 2021-07-09 07:56:00 | :x:                |                                                                                                                                                                                                                                                                                                               |
+
+**[⬆ Back to Index](#Contents)**
+
+## Component
+
+| Link                                                                                      | Created Time        | Read | Memo |
+| ----------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Pedro Duarte — Variant-driven Components](https://ped.ro/blog/variant-driven-components) | 2021-09-14 10:50:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
+
+## npm
+
+| Link                                                                                                                                                 | Created Time        | Read               | Memo                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Implicit transitive peer dependencies - DEV Community](https://dev.to/arcanis/implicit-transitive-peer-dependencies-ed0)                            | 2021-09-13 17:08:00 | :white_check_mark: | 종속성의 `peerDependencies`를 `peerDependencies` 또는 `dependencies` 로 명시하자. 암시적으로 종속성의 `peerDependencies`를 상속받을 수 없다. |
+| [Self-Documented Makefile](https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html)                                                       | 2021-08-10 22:15:00 | :x:                |                                                                                                                                              |
+| [Why I Prefer Makefiles Over package.json Scripts for Node.js Projects](https://spin.atomicobject.com/2021/03/22/makefiles-vs-package-json-scripts/) | 2021-08-10 22:00:00 | :white_check_mark: |                                                                                                                                              |
 
 **[⬆ Back to Index](#Contents)**
 
