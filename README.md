@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-67-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--09--26-blue.svg)
+![Total](https://img.shields.io/badge/Total-68-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--09--27-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [Typescript](#Typescript)
 - [Component](#Component)
 - [npm](#npm)
@@ -31,6 +32,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                                                                                                                                                                      | Created Time        | Read | Memo |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Building a Node.js CLI with TypeScript, packaged and distributed via Homebrew \| by Sniptt Official \| Geek Culture \| Medium](https://medium.com/geekculture/building-a-node-js-cli-with-typescript-packaged-and-distributed-via-homebrew-15ba2fadcb81) | 2021-09-26 09:51:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Typescript
 
