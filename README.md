@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-73-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--10--24-blue.svg)
+![Total](https://img.shields.io/badge/Total-74-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--10--25-blue.svg)
 
 ## Contents
 
+- [React](#React)
 - [Typescript](#Typescript)
 - [Guide](#Guide)
 - [JavaScript](#JavaScript)
@@ -21,7 +22,6 @@
 - [NextJS](#NextJS)
 - [Vue](#Vue)
 - [GitHub](#GitHub)
-- [React](#React)
 - [GitLab](#GitLab)
 - [GraphQL](#GraphQL)
 - [CSS](#CSS)
@@ -33,6 +33,15 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## React
+
+| Link                                                                                                                          | Created Time        | Read               | Memo |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ | ---- |
+| [React를 Vue.js보다 선호하는 이유](https://ahnheejong.name/articles/why-i-prefer-react-over-vuejs/)                           | 2021-10-24 16:12:00 | :white_check_mark: |      |
+| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/) | 2021-08-12 19:59:00 | :x:                |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## Typescript
 
@@ -189,14 +198,6 @@
 | [Incremental PRs: a new GitHub workflow for the Gatsby Cloud team \| Gatsby](https://www.gatsbyjs.com/blog/2020-01-08-git-workflows/) | 2021-08-14 09:13:00 | :x:                |                        |
 | [GitHub OCTO \| Visualizing a codebase](https://octo.github.com/projects/repo-visualization)                                          | 2021-08-06 18:53:00 | :white_check_mark: | Visualizing a codebase |
 | [[GitHub] fork repository 최신 버전으로 유지하기](https://jybaek.tistory.com/775)                                                     | 2021-07-08 09:43:00 | :x:                |                        |
-
-**[⬆ Back to Index](#Contents)**
-
-## React
-
-| Link                                                                                                                          | Created Time        | Read | Memo |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
-| [A Visual Guide to React Rendering - useCallback \| Alex Sidorenko](https://alexsidorenko.com/blog/react-render-usecallback/) | 2021-08-12 19:59:00 | :x:  |      |
 
 **[⬆ Back to Index](#Contents)**
 
