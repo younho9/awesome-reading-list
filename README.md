@@ -2,11 +2,12 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-![Total](https://img.shields.io/badge/Total-74-green.svg)
-![Updated](https://img.shields.io/badge/Updated-2021--10--25-blue.svg)
+![Total](https://img.shields.io/badge/Total-75-green.svg)
+![Updated](https://img.shields.io/badge/Updated-2021--10--26-blue.svg)
 
 ## Contents
 
+- [undefined](#undefined)
 - [React](#React)
 - [Typescript](#Typescript)
 - [Guide](#Guide)
@@ -33,6 +34,14 @@
 - [utility](#utility)
 - [PWA](#PWA)
 - [Mac](#Mac)
+
+## undefined
+
+| Link                                                                                                                                         | Created Time        | Read | Memo |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---- | ---- |
+| [Exploring set, get and Object.defineProperty in TypeScript - Ultimate Courses™](https://ultimatecourses.com/blog/typescript-setters-getter) | 2021-10-26 09:00:00 | :x:  |      |
+
+**[⬆ Back to Index](#Contents)**
 
 ## React
 
