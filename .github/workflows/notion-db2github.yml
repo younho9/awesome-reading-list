@@ -1,0 +1,52 @@
+name: notion-db2github
+
+on:
+  schedule:
+    - cron: 0 0 * * * # KST 9:00 AM on everyday
+  push:
+    branches:
+      - ci/**
+  workflow_dispatch: {}
+
+jobs:
+  notion-db2github:
+    name: notion-db2github
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - id: notion-db2github
+        uses: narkdown/notion-db2github@v0.2.0
+        with:
+          database-id: ${{ secrets.DATABASE_ID }}
+          notion-api-key: ${{ secrets.NOTION_KEY }}
+
+      - id: create-ejs-context
+        uses: actions/github-script@v5
+        env:
+          rows: ${{ steps.notion-db2github.outputs.rows }}
+        with:
+          script: |
+            const today = new Date();
+            const rows = JSON.parse(process.env.rows);
+            const categories = [...new Set(rows.map((content) => content.Category))];
+            const categorizedLists = categories.map((category) =>
+              rows.filter((article) => category === article.Category),
+            )
+
+            return {
+              date: `${today.getFullYear()}--${today.getMonth() + 1}--${today.getDate()}`,
+              count: Object.keys(rows).length,
+              categories,
+              categorizedLists
+            }
+
+      - run: npm install && node ./index.js
+        env:
+          context: ${{ steps.create-ejs-context.outputs.result }}
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: 'docs: updated by notion-db2github'
+          default_author: github_actions

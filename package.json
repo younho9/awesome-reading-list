@@ -1,17 +1,6 @@
 {
-  "scripts": {
-    "start": "node ./index.js",
-    "poststart": "prettier --write ."
-  },
-  "prettier": "@younho9/prettier-config",
   "dependencies": {
-    "@narkdown/client": "^0.1.0",
-    "@narkdown/notion-parser": "0.2.0",
-    "dotenv": "10.0.0",
-    "ejs": "^3.1.6"
-  },
-  "devDependencies": {
-    "@younho9/prettier-config": "^2.2.4",
+    "ejs": "^3.1.6",
     "prettier": "^2.4.1"
   }
 }
