@@ -1,4 +1,4 @@
-name: notion-db2github
+name: narkdown
 
 on:
   schedule:
@@ -9,23 +9,23 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  notion-db2github:
-    name: notion-db2github
+  narkdown:
+    name: narkdown
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
 
-      - id: notion-db2github
-        uses: narkdown/notion-db2github@v0.2.0
+      - id: narkdown-query
+        uses: narkdown/query-in-action@v0.3.0
         with:
           database-id: ${{ secrets.DATABASE_ID }}
           notion-api-key: ${{ secrets.NOTION_KEY }}
 
-      - id: create-ejs-context
+      - id: create-ejs-data
         uses: actions/github-script@v5
         env:
-          rows: ${{ steps.notion-db2github.outputs.rows }}
+          rows: ${{ steps.narkdown-query.outputs.rows }}
         with:
           script: |
             const today = new Date();
@@ -42,11 +42,13 @@ jobs:
               categorizedLists
             }
 
-      - run: npm install && node ./index.js
-        env:
-          context: ${{ steps.create-ejs-context.outputs.result }}
+      - uses: narkdown/render-markdown-with-ejs@v0.1.0
+        with:
+          template-file-path: template.md
+          target-file-path: README.md
+          data: ${{ steps.create-ejs-data.outputs.result }}
 
       - uses: EndBug/add-and-commit@v7
         with:
-          message: 'docs: updated by notion-db2github'
+          message: 'docs: updated by narkdown'
           default_author: github_actions
