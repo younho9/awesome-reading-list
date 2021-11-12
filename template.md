@@ -2,31 +2,33 @@
 
 > A curated reading list synchronizing with the [Notion Database](https://www.notion.so/younho9/c0d7fc0843e7421a88dd848932b5dbfd?v=42efd3bccce24649b7818b65cd5c1e88)
 
-<% if (count) { -%>
+[![narkdown](https://github.com/younho9/awesome-reading-list/actions/workflows/narkdown.yml/badge.svg?branch=main&event=schedule)](https://github.com/younho9/awesome-reading-list/actions/workflows/narkdown.yml)
+<% if (count) {                                                                                                                  -%>
 ![Total](https://img.shields.io/badge/Total-<%= count %>-green.svg)
-<% } -%>
-<%- -%>
-<% if (date) { -%>
+<% }                                                                                                                             -%>
+<%-                                                                                                                              -%>
+<% if (date) {                                                                                                                   -%>
 ![Updated](https://img.shields.io/badge/Updated-<%= date %>-blue.svg)
-<% } -%>
+<% }                                                                                                                             -%>
 
-<% if (categories && categories.length) { -%>
+<% if (categories && categories.length) {                                                                                        -%>
 
 ## Contents
 
-<% categories.forEach(function(category, index) { -%>
+<% categories.forEach(function(category, index) {                                                                                -%>
 <%- `- [${category ? category : 'Uncategorized'} (${categorizedLists[index].length})](#${category ? category : 'Uncategorized'})` %>
-<% })-%>
-<%- -%>
-<% categories.forEach(function(category, index) { -%>
+<% })                                                                                                                            -%>
+<%-                                                                                                                              -%>
+<% categories.forEach(function(category, index) {                                                                                -%>
 
-<%- `## ${category ? category : 'Uncategorized'}` %>
+<%- `## ${category ? category : 'Uncategorized'}`                                                                                 %>
 
-<%- `| Link | Created Time | Read | Memo |` %>
-<%- `| ---- | ------------ | ---- | ---- |` %>
-<% categorizedLists[index].forEach(function(item) { -%>
-<%- `| [${item.Title || ''}](${item.URL || ''}) | ${item['Created Time'] || ''} | ${item['Read'] || ''} | ${item.Memo || ''} |` %>
-<% })%>
+| Link | Created Time | Read | Memo |
+| ---- | ------------ | ---- | ---- |
+<% categorizedLists[index].forEach(function(item) {                                                                              -%>
+<%- `| [${item.Title || ''}](${item.URL || ''}) | ${item['Created Time'] || ''} | ${item['Read'] || ''} | ${item.Memo || ''} |`   %>
+<% })                                                                                                                             %>
 **[⬆ Back to Index](#Contents)**
-<% }) -%>
-<% } -%>
+<% })                                                                                                                            -%>
+<% }                                                                                                                             -%>
+
