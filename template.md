@@ -25,7 +25,7 @@
 <%- `| Link | Created Time | Read | Memo |` %>
 <%- `| ---- | ------------ | ---- | ---- |` %>
 <% categorizedLists[index].forEach(function(item) { -%>
-<%- `| [${item.Title ?? ''}](${item.URL ?? ''}) | ${item['Created Time'] ?? ''} | ${item['Read'] ?? ''} | ${item.Memo ?? ''} |` %>
+<%- `| [${item.Title || ''}](${item.URL || ''}) | ${item['Created Time'] || ''} | ${item['Read'] || ''} | ${item.Memo || ''} |` %>
 <% })%>
 **[⬆ Back to Index](#Contents)**
 <% }) -%>

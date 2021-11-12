@@ -1,0 +1,54 @@
+name: narkdown
+
+on:
+  schedule:
+    - cron: 0 0 * * * # KST 9:00 AM on everyday
+  push:
+    branches:
+      - ci/**
+  workflow_dispatch: {}
+
+jobs:
+  narkdown:
+    name: narkdown
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - id: narkdown-query
+        uses: narkdown/query-in-action@v0.3.1
+        with:
+          database-id: ${{ secrets.DATABASE_ID }}
+          notion-api-key: ${{ secrets.NOTION_KEY }}
+
+      - id: create-ejs-data
+        uses: actions/github-script@v5
+        env:
+          rows: ${{ steps.narkdown-query.outputs.rows }}
+        with:
+          script: |
+            const today = new Date();
+            const rows = JSON.parse(process.env.rows);
+            const categories = [...new Set(rows.map((content) => content.Category))];
+            const categorizedLists = categories.map((category) =>
+              rows.filter((article) => category === article.Category),
+            )
+
+            return {
+              date: `${today.getFullYear()}--${today.getMonth() + 1}--${today.getDate()}`,
+              count: Object.keys(rows).length,
+              categories,
+              categorizedLists
+            }
+
+      - uses: narkdown/render-with-ejs@v0.1.1
+        with:
+          template-file-path: template.md
+          target-file-path: README.md
+          data: ${{ steps.create-ejs-data.outputs.result }}
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: 'docs: updated by narkdown'
+          default_author: github_actions
