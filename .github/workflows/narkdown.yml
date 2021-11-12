@@ -14,10 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
 
       - id: narkdown-query
-        uses: narkdown/query-in-action@v0.3.1
+        uses: narkdown/query-in-action@v0.3.2
         with:
           database-id: ${{ secrets.DATABASE_ID }}
           notion-api-key: ${{ secrets.NOTION_KEY }}
