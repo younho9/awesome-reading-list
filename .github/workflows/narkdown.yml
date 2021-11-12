@@ -44,10 +44,12 @@ jobs:
       - uses: narkdown/render-with-ejs@v0.1.1
         with:
           template-file-path: template.md
-          target-file-path: README.md
+          target-file-path: awesome-reading-list.md
           data: ${{ steps.create-ejs-data.outputs.result }}
 
-      - uses: EndBug/add-and-commit@v7
+      - uses: exuanbo/actions-deploy-gist@v1
         with:
-          message: 'docs: updated by narkdown'
-          default_author: github_actions
+          token: ${{ secrets.GIST_TOKEN }}
+          gist_id: 287da0b33fc7d5b5848944f90f3600b7
+          gist_file_name: awesome-reading-list.md
+          file_path: awesome-reading-list.md
