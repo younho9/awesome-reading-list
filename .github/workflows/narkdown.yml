@@ -18,8 +18,8 @@ jobs:
       - id: narkdown-query
         uses: narkdown/query-in-action@v0.3.2
         with:
-          database-id: ${{ secrets.DATABASE_ID }}
-          notion-api-key: ${{ secrets.NOTION_KEY }}
+          database-id: ${{ secrets.NOTION_DATABASE_ID }}
+          notion-api-key: ${{ secrets.NOTION_API_TOKEN }}
 
       - id: create-ejs-data
         uses: actions/github-script@v5
