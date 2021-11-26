@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - id: narkdown-query
-        uses: narkdown/query-in-action@v0.3.2
+        uses: narkdown/query-in-action@v0.4.0
         with:
           database-id: ${{ secrets.NOTION_DATABASE_ID }}
           notion-api-key: ${{ secrets.NOTION_API_TOKEN }}
