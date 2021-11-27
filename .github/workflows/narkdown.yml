@@ -15,37 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - id: narkdown-query
-        uses: narkdown/query-in-action@v0.4.0
+      - id: awesome-reading-list
+        uses: narkdown/awesome-reading-list@main
         with:
           database-id: ${{ secrets.NOTION_DATABASE_ID }}
           notion-api-key: ${{ secrets.NOTION_API_TOKEN }}
-
-      - id: create-ejs-data
-        uses: actions/github-script@v5
-        env:
-          rows: ${{ steps.narkdown-query.outputs.rows }}
-        with:
-          script: |
-            const today = new Date();
-            const rows = JSON.parse(process.env.rows);
-            const categories = [...new Set(rows.map((content) => content.Category))].sort();
-            const categorizedLists = categories.map((category) =>
-              rows.filter((article) => category === article.Category),
-            )
-
-            return {
-              date: `${today.getFullYear()}--${today.getMonth() + 1}--${today.getDate()}`,
-              count: Object.keys(rows).length,
-              categories,
-              categorizedLists
-            }
-
-      - uses: narkdown/render-with-ejs@v0.1.1
-        with:
-          template-file-path: template.md
           target-file-path: awesome-reading-list.md
-          data: ${{ steps.create-ejs-data.outputs.result }}
 
       - uses: exuanbo/actions-deploy-gist@v1
         with:
