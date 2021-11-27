@@ -1,3 +1,5 @@
+> ⚠️ This repository has been archived. Please use [narkdown/awesome-reading-list](https://github.com/narkdown/awesome-reading-list).
+
 # Awesome Reading List [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Creating your own Awesome Reading List sync with [Notion Database](https://younho9.notion.site/af6ccfde2f1e4824a4bea2ac1a053eff)!
@@ -16,7 +18,7 @@ Creating your own Awesome Reading List sync with [Notion Database](https://younh
 
 ![create integration](https://files.readme.io/2ec137d-093ad49-create-integration.gif)
 
-4. [Share a database with your integration & Get Database ID](https://developers.notion.com/docs#step-2-share-a-database-with-your-integration).
+1. [Share a database with your integration](https://developers.notion.com/docs#step-2-share-a-database-with-your-integration).
 
 ![share-database-with-integration](https://files.readme.io/0a267dd-share-database-with-integration.gif)
 
